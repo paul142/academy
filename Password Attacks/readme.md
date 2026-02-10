@@ -1,4 +1,4 @@
-# Table of Contents ( [Cheat Sheet](Cheat%20Sheet%20-%20PASSWORD%20ATTACKS.md))
+# Password Attacks ([Cheat Sheet](Cheat%20Sheet%20-%20PASSWORD%20ATTACKS.md))
 
 ## Introduction
 
@@ -8,9 +8,15 @@
 
 *   Introduction to Password Cracking ([Module](./Module/Introduction%20to%20Password%20Cracking.md), [Lab](./Labs/Introduction%20to%20Password%20Cracking.md))
 *   Introduction to John The Ripper ([Module](./Module/Introduction%20to%20John%20The%20Ripper.md), [Labs](./Labs/Introduction%20to%20John%20The%20Ripper.md))
+*   Introduction to Hashcat ([Module](./Module/Introduction%20to%20Hashcat.md), [Labs](./Labs/Introduction%20to%20Hashcat.md))
 *   Writing Custom Wordlists and Rules ([Module](./Labs/Writing%20Custom%20Wordlists%20and%20Rules.md), [Lab](./Labs/Writing%20Custom%20Wordlists%20and%20Rules.md))
+*   Cracking Protected Files ([Module](./Module/Cracking%20Protected%20Files.md), [Labs](./Labs/Cracking%20Protected%20Files.md))
+*   Cracking Protected Archives ([Module](./Module/Cracking%20Protected%20Archives.md), [Labs](./Labs/Cracking%20Protected%20Archives.md))
 
 ## Remote Password Attacks
+
+* Network Services ([Module](./Module/Network%20Services.md), [Lab](./Labs/Network%20Services.md))
+* Spraying, Stuffing, and Defaults ([Module](./Module/Spraying,%20Stuffing,%20and%20Defaults.md), [Lab](./Labs/Spraying,%20Stuffing,%20and%20Defaults.md))
 
 ## Extracting Passwords from Windows Systems
 

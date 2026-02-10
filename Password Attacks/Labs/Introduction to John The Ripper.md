@@ -5,5 +5,9 @@ echo 'r0lf:$6$ues25dIanlctrWxg$nZHVz2z4kCy1760Ee28M1xtHdGoy0C2cYzZ8l2sVa1kIa8K9g
 john --single pass
 ```
 
-## Use wordlist-mode with rockyou.txt to crack the RIPEMD-128 password.
+## Use wordlist-mode with rockyou.txt to crack the RIPEMD-128 password
+```
+echo '193069ceb0461e1d40d216e32c79c704' > hash 
 
+john --wordlist=/usr/share/wordlists/rockyou.txt --format=ripemd-128 hash
+```
