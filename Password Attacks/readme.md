@@ -20,6 +20,10 @@
 
 ## Extracting Passwords from Windows Systems
 
+* Windows Authentication Process ([Module](./Module/Windows%20Authentication%20Process.md))
+* Attacking SAM, SYSTEM, and SECURITY ([Module](./Module/Attacking%20SAM,%20SYSTEM,%20and%20SECURITY.md), [Lab](./Labs/Attacking%20SAM,%20SYSTEM,%20and%20SECURITY.md))
+* Attacking LSASS ([Module](./Module/Attacking%20LSASS.md), [Lab](./Labs/Attacking%20LSASS.md))
+
 *   Attacking Windows Credential Manager ([Module](./Module/Attacking%20Windows%20Credential%20Manager.md), [Lab](./Labs/Attacking%20Windows%20Credential%20Manager.md))
 *   Attacking Active Directory and NTDS.dit ([Module](./Module/Attacking%20Active%20Directory%20and%20NTDS.dit.md), [Lab](./Labs/Attacking%20Active%20Directory%20and%20NTDS.dit.md))
 *   Credential Hunting in Windows ([Module](./Module/Credential%20Hunting%20in%20Windows.md), [Lab](./Labs/Credential%20Hunting%20in%20Windows.md))

